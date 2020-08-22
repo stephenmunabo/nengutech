@@ -105,6 +105,97 @@
 
 <?php wp_footer(); ?>
 
+<!--CTA MODAL-->
+
+<!-- Modal -->
+<div id="cta-modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      
+      <div class="modal-body">
+       <div class="row">
+           <div class="col-md-4"></div>
+           <div class="col-md-8">
+               <!-- Register area start -->
+
+    <div class="register-area">
+        <img class="r-sp-1" src="<?php echo get_template_directory_uri(); ?>/assets/img/shap-1.png" alt="">
+        <img class="r-sp-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/shap-2.png" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="resgister-form-blk">
+                        <div class="resiter-top-texts">
+                            <h2>Let's help you on the path to a new career</h2>
+                            <h4>Register here and we will do the rest. </h4>
+                        </div>
+                        <form action="">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="single-inpt-blk">
+                                        <input type="text" placeholder="First Name">
+                                        <span>Please provide your first name</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single-inpt-blk">
+                                        <input type="text" placeholder="Last Name">
+                                        <span>Please provide your last name</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="single-inpt-blk">
+                                        <input type="text" placeholder="Email Address">
+                                        <span>Please provide your email address</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single-inpt-blk">
+                                        <input type="text" placeholder="Phone Numaber">
+                                        <span>Please provide your phone number</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="select-opt">
+                                        <select name="" id="">
+                                            <option value="">Career Path</option>
+                                            <option value="">Amazon Web Services (AWS)</option>
+                                            <option value="">Azure Cloud</option>
+                                            <option value="">Google Cloud</option>
+                                            <option value="">Scrum Master</option>
+                                            <option value="">Power BI</option>
+                                        </select>
+                                    </div>
+                                    <div class="sub-btn">
+                                        <button type="submit" class="site-btn">Sign me up</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Register area end -->
+           </div>
+       </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 </body>
 
 </html>

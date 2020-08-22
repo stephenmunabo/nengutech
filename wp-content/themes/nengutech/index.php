@@ -31,7 +31,7 @@ get_header();
                             the workforce leaders of
                             tomorrow </h2>
                         <p>At Nengu tech, we aim to become the bridge between talented professionals and industry-leading companies.</p>
-                        <a href="" class="site-btn">Let's Talk</a>
+                        <a href="" data-toggle="modal" data-target="#cta-modal" class="site-btn">Let's Talk</a>
                     </div>
                 </div>
             </div>
