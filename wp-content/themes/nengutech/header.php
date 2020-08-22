@@ -35,8 +35,7 @@
     <?php wp_head(); ?>
 
 </head>
-<?php echo $slug = basename(get_permalink()); 
-
+<?php $slug = basename(get_permalink()); 
 if($slug == 'for-jobseekers') :
 ?>
 
