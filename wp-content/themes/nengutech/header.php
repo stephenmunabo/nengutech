@@ -37,7 +37,7 @@
 </head>
 <?php echo $slug = basename(get_permalink()); 
 
-if($slug == 'job-seekers') :
+if($slug == 'for-jobseekers') :
 ?>
 
 <body class="jobs">
