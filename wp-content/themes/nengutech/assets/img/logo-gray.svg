@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="230px" height="37px" viewBox="0 0 230 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4 Copy</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header" transform="translate(-135.000000, -49.000000)">
+            <g id="Group" transform="translate(135.000000, 42.000000)">
+                <g id="Group-4-Copy" transform="translate(0.000000, 7.000000)">
+                    <text id="NENGUTECH" font-family="Helvetica" font-size="28.228499" font-weight="normal" letter-spacing="0.555933252" fill="#555555">
+                        <tspan x="47.7999992" y="28">NENGUTECH</tspan>
+                    </text>
+                    <g id="Group-2" transform="translate(0.000000, 3.010000)" fill="#252525">
+                        <polyline id="Fill-380" points="20.4948969 27.6010342 20.0778264 27.5346217 0.114229497 3.89708539 0.212519994 3.28874691 7.1991148 -1.88755672e-14 7.61618529 0.0690689981 27.5479042 23.7066053 27.4496137 24.3149438 20.4948969 27.6010342"></polyline>
+                        <polyline id="Fill-381" points="8.14748527 25.3323833 0.37190999 25.3323833 -1.88755672e-13 24.9578168 -1.88755672e-13 6.04088083 8.51939526 16.1302675 8.51939526 24.9578168 8.14748527 25.3323833"></polyline>
+                        <polyline id="Fill-382" points="27.6940117 21.8045514 19.17196 11.6965692 19.17196 2.72556892 19.5465264 2.35100243 27.3194452 2.35100243 27.6940117 2.72556892 27.6940117 21.8045514"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
