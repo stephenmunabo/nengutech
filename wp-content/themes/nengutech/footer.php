@@ -116,8 +116,8 @@
       
       <div class="modal-body">
        <div class="row">
-           <div class="col-md-4"></div>
-           <div class="col-md-8">
+        
+           <div class="col-md-12">
                <!-- Register area start -->
 
     <div class="register-area">
@@ -185,7 +185,7 @@
     </div>
 
     <!-- Register area end -->
-           </div>
+           </>
        </div>
       </div>
       <div class="modal-footer">
