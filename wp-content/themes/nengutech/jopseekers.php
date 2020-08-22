@@ -454,7 +454,7 @@ get_header();
 
     <!-- Modal -->
 <div id="modal-aws" class="modal fade" role="dialog">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-lg">
 
     <!-- Modal content-->
     <div class="modal-content">
@@ -463,8 +463,8 @@ get_header();
         <h4 class="modal-title">AWS Solutions Architect</h4>
       </div>
       <div class="modal-body">
-        <p> AWS Solution Architect course is aimed at empowering you with skills that will help you in the design of fault-tolerant, cost efficient & scalable distributed systems on platforms such as AWS. More importantly, with skills leanred you will be proficient the crafting of advanced cloud-based solutions and migrating data to the cloud. 
-Based on the recommendations by Amazon, as an architect, you will be able to make plans for, design and scale AWS cloud implementations. Taking this course empowers you to be a AWS Solution architect, who can receive an average salary of $126,000 annually.  	</p>
+        <p> AWS Solution Architect course is aimed at empowering you with skills that will help you in the design of fault-tolerant, cost efficient & scalable distributed systems on platforms such as AWS. More importantly, with skills leanred you will be proficient the crafting of advanced cloud-based solutions and migrating data to the cloud.</p> 
+        <p>Based on the recommendations by Amazon, as an architect, you will be able to make plans for, design and scale AWS cloud implementations. Taking this course empowers you to be a AWS Solution architect, who can receive an average salary of $126,000 annually.  	</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
