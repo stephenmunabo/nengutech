@@ -52,7 +52,15 @@
                 <div class="col-lg-9">
                     <div class="site-main-menu">
                        <span class="menu-close"><i class="fal fa-times"></i></span>
-                        <ul>
+                       <?php
+        
+                                wp_nav_menu( array(
+                                    'menu' => 'primary'
+                                ) );
+                                                    
+                            ?>
+                        <ul style="display: none;">
+                            
                             <li><a class="active-menu" href="">Home</a></li>
                             <li><a href="">For Empoyers</a></li>
                             <li><a href="">For Jobseekers</a></li>
