@@ -225,7 +225,7 @@ a:hover {
     border-color: #4da9f8;
 }
 
-.site-main-menu ul li a.current-menu-item {
+.current-menu-item a {
     border: ;
     border-color: #4da9f8;
 }
