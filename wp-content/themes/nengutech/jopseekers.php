@@ -63,7 +63,7 @@ get_header();
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
                             <h4>Aws</h4>
-                            <p>Social media marketing is the use of social media platforms to connect with your audience to build your brand, increase sales, and drive website traffic.</p>
+                            <p>AWS Solution Architect course is aimed at empowering you with skills that will help you in the design of fault-tolerant, cost efficient & scalable distributed systems on platforms such as AWS.</p>
                         </div>
                         <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
@@ -81,7 +81,7 @@ get_header();
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
                             <h4>Azure</h4>
-                            <p>We develop engaging, innovative, of-the-box ideas, and user experiences that spark powerful consumer-brand relationships</p>
+                            <p>Learn to perform archiving and back up, checking workload statistics, system logs, failed updates, memory dumps and trace directory, Examining application servers and much more.</p>
                         </div>
                         <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
@@ -98,8 +98,8 @@ get_header();
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
-                            <h4>Brand <br> Designer</h4>
-                            <p>We develop engaging, innovative, of-the-box ideas, and user experiences that spark powerful consumer-brand relationships</p>
+                            <h4>SAP Finance</h4>
+                            <p>SAP Certification course is segregated into either the technical or the functional aspect. Technicalities of this course are linked to module customization and programming.</p>
                         </div>
                         <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
@@ -117,7 +117,7 @@ get_header();
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
                             <h4>Scrum Master</h4>
-                            <p>We develop engaging, innovative, of-the-box ideas, and user experiences that spark powerful consumer-brand relationships</p>
+                            <p>A Scrum Master Certification is aimed at empowering you with servant-leadership skills that are essential for the successful performance of a Scrum Team.</p>
                         </div>
                         <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
@@ -126,7 +126,7 @@ get_header();
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
                             <h4>Power Bi</h4>
-                            <p>We develop engaging, innovative, of-the-box ideas, and user experiences that spark powerful consumer-brand relationships</p>
+                            <p>The course is aimed at enhancing your proficiency in using this tool in custom visualization of data, production of reports, analysis and overall use in business intelligence. </p>
                         </div>
                         <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
