@@ -52,7 +52,11 @@ if($slug == 'for-jobseekers') :
             <div class="row">
                 <div class="col-lg-3 d-flex align-items-center">
                     <div class="site-logo">
+                        <?php if($slug == 'for-jobseekers') : ?>
+                        <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-gray.svg" alt=""></a>
+                        <?php else : ?>
                         <a href="index.html"><img class="non-stc" src="<?php echo get_template_directory_uri(); ?>/assets/img/site-logo.svg" alt=""><img class="sticky-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-gray.svg" alt=""></a>
+                        <?php endif; ?>
                         <span class="menu-open"><i class="fal fa-align-right"></i></span>
                     </div>
                 </div>
