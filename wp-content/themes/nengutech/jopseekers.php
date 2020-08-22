@@ -74,7 +74,7 @@ get_header();
                             <h4>Google Cloud</h4>
                             <p>We ready to modernize or completely redesign and web interfaces to align them with the evolving needs of the end-users and industry standards.</p>
                         </div>
-                        <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
+                        <a href="" data-toggle="modal" data-target="#modal-google-cloud" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -452,7 +452,7 @@ get_header();
 
     <!--Modals-->
 
-    <!-- Modal -->
+    <!-- Modal aws -->
 <div id="modal-aws" class="modal fade" role="dialog">
   <div class="modal-dialog modal-lg">
 
@@ -473,6 +473,30 @@ get_header();
 
   </div>
 </div>
+
+
+<!-- Modal aws -->
+<div id="modal-google-cloud" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <h4 class="modal-title">Google Cloud Architect</h4>
+      </div>
+      <div class="modal-body">
+        <p> AWS Solution Architect course is aimed at empowering you with skills that will help you in the design of fault-tolerant, cost efficient & scalable distributed systems on platforms such as AWS. More importantly, with skills leanred you will be proficient the crafting of advanced cloud-based solutions and migrating data to the cloud.</p> 
+        <p>Based on the recommendations by Amazon, as an architect, you will be able to make plans for, design and scale AWS cloud implementations. Taking this course empowers you to be a AWS Solution architect, who can receive an average salary of $126,000 annually.  	</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 
 
 
