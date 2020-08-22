@@ -36,7 +36,7 @@
 
 </head>
 
-<body>
+<body class="<?php is_page( 'Jobseekers' ) == 'true' ? 'jobs' : ''; ?>">
 
 
     <!-- Header bar section start -->
