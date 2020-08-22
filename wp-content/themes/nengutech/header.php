@@ -36,7 +36,7 @@
 
 </head>
 <?php $slug = basename(get_permalink()); ?>
-<body class="<?php is_page( 'job-seekers' ) == 'true' ? 'jobs' : ''; ?>">
+<body class="<?php $slug == 'job-seekers' ? 'jobs' : ''; ?>">
 
 
     <!-- Header bar section start -->
