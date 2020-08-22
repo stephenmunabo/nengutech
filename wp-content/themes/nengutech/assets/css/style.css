@@ -220,13 +220,22 @@ a:hover {
     border-bottom: 2px solid transparent;
 }
 
+.current-menu-item a {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    text-shadow: 0 0 10px #0000005c;
+    display: block;
+    padding: 38px 0px;
+    border-bottom: 2px solid transparent;
+}
+
 .site-main-menu ul li a.active-menu {
-    border: ;
     border-color: #4da9f8;
 }
 
 .current-menu-item a {
-    border: ;
     border-color: #4da9f8;
 }
 
