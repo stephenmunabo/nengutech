@@ -71,7 +71,7 @@ get_header();
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
-                            <h4>Mobile and Web <br> Development</h4>
+                            <h4>Google Cloud</h4>
                             <p>We ready to modernize or completely redesign and web interfaces to align them with the evolving needs of the end-users and industry standards.</p>
                         </div>
                         <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
@@ -80,7 +80,16 @@ get_header();
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
-                            <h4>Brand <br> Designer</h4>
+                            <h4>Azure</h4>
+                            <p>We develop engaging, innovative, of-the-box ideas, and user experiences that spark powerful consumer-brand relationships</p>
+                        </div>
+                        <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-services-blk">
+                        <div class="single-services-blk-content-inner">
+                            <h4>Oracle Fusion <br> Middleware</h4>
                             <p>We develop engaging, innovative, of-the-box ideas, and user experiences that spark powerful consumer-brand relationships</p>
                         </div>
                         <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
@@ -98,7 +107,7 @@ get_header();
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
-                            <h4>Brand <br> Designer</h4>
+                            <h4>Business Analyst</h4>
                             <p>We develop engaging, innovative, of-the-box ideas, and user experiences that spark powerful consumer-brand relationships</p>
                         </div>
                         <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
@@ -107,7 +116,7 @@ get_header();
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
-                            <h4>Brand <br> Designer</h4>
+                            <h4>Scrum Master</h4>
                             <p>We develop engaging, innovative, of-the-box ideas, and user experiences that spark powerful consumer-brand relationships</p>
                         </div>
                         <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
@@ -116,16 +125,7 @@ get_header();
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
-                            <h4>Brand <br> Designer</h4>
-                            <p>We develop engaging, innovative, of-the-box ideas, and user experiences that spark powerful consumer-brand relationships</p>
-                        </div>
-                        <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-services-blk">
-                        <div class="single-services-blk-content-inner">
-                            <h4>Brand <br> Designer</h4>
+                            <h4>Power Bi</h4>
                             <p>We develop engaging, innovative, of-the-box ideas, and user experiences that spark powerful consumer-brand relationships</p>
                         </div>
                         <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
