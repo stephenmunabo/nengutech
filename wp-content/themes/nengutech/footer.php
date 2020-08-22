@@ -27,7 +27,7 @@
                         </div>
                         <div class="col-lg-5 d-flex align-items-center">
                             <div class="call-top-ac-btn">
-                                <a href="" class="site-btn">Let's Talk</a>
+                                <a href="" data-toggle="modal" data-target="#cta-modal" class="site-btn">Let's Talk</a>
                             </div>
                         </div>
                     </div>
