@@ -54,7 +54,7 @@ if($slug == 'for-jobseekers') :
                         <?php if($slug == 'for-jobseekers') : ?>
                         <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-gray.svg" alt=""></a>
                         <?php else : ?>
-                        <a href="index.html"><img class="non-stc" src="<?php echo get_template_directory_uri(); ?>/assets/img/site-logo.svg" alt=""><img class="sticky-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-gray.svg" alt=""></a>
+                        <a href="/"><img class="non-stc" src="<?php echo get_template_directory_uri(); ?>/assets/img/site-logo.svg" alt=""><img class="sticky-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-gray.svg" alt=""></a>
                         <?php endif; ?>
                         <span class="menu-open"><i class="fal fa-align-right"></i></span>
                     </div>
