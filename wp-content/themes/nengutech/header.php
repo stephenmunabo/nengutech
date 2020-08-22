@@ -27,6 +27,7 @@
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/fontawesome.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/meanmenu.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/nice-select.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/animate.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/default.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css" rel="stylesheet">

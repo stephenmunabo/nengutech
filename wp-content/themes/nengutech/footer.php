@@ -100,8 +100,16 @@
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.sticky.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.meanmenu.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/owl.carousel.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.nice-select.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('select').niceSelect();
+        });
+
+    </script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
+
 
 <?php wp_footer(); ?>
 
