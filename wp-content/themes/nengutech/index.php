@@ -16,7 +16,16 @@
 
 get_header();
 
+
 ?>
+
+
+<style>
+    .register-area {
+        background: #fff;
+        padding: 4px 0;
+    }
+</style>
 
 
 <!-- Hero area start -->
