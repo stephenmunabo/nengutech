@@ -125,7 +125,7 @@
         <img class="r-sp-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/shap-2.png" alt="">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-12">
                     <div class="resgister-form-blk">
                         <div class="resiter-top-texts">
                             <h2>Let's help you on the path to a new career</h2>
