@@ -35,8 +35,15 @@
     <?php wp_head(); ?>
 
 </head>
-<?php $slug = basename(get_permalink()); ?>
-<body class="<?php $slug == 'job-seekers' ? 'jobs' : ''; ?>">
+<?php echo $slug = basename(get_permalink()); 
+
+if($slug == 'job-seekers') :
+?>
+
+<body class="jobs">
+<?php else: ?>
+<body>
+<?php endif;?>
 
 
     <!-- Header bar section start -->
