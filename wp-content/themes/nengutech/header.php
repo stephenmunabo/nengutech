@@ -35,7 +35,7 @@
     <?php wp_head(); ?>
 
 </head>
-
+<?php echo $slug = basename(get_permalink()); ?>
 <body class="<?php is_page( 'Jobseekers' ) == 'true' ? 'jobs' : ''; ?>">
 
 
