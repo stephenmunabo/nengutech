@@ -66,6 +66,6 @@ function sendLeadToPerfex(){
   //echo $curl_errno;
   //echo $curl_error;
   curl_close($ch);
-  return $data;
+  var_dump($data); exit;
 }
 sendLeadToPerfex();
