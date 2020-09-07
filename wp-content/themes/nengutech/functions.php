@@ -43,7 +43,7 @@ function sendLeadToPerfex(){
     CURLOPT_RETURNTRANSFER => true,         // return web page
     CURLOPT_HEADER         => false,        // don't return headers
     CURLOPT_FOLLOWLOCATION => false,         // follow redirects
-   // CURLOPT_ENCODING       => "utf-8",           // handle all encodings
+    CURLOPT_ENCODING       => "utf-8",           // handle all encodings
     CURLOPT_AUTOREFERER    => true,         // set referer on redirect
     CURLOPT_CONNECTTIMEOUT => 20,          // timeout on connect
     CURLOPT_TIMEOUT        => 20,          // timeout on response
@@ -66,6 +66,6 @@ function sendLeadToPerfex(){
   echo $curl_errno;
   echo $curl_error;
   curl_close($ch);
-  var_dump($data); exit;
+  var_dump($data);
 }
-sendLeadToPerfex();
+sendLeadToPerfex();;
