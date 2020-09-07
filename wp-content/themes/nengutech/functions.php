@@ -37,7 +37,7 @@ function sendLeadToPerfex(){
 
   );
 
-  $url = "https://office.nengu.tech/admin/api/leads";
+  $url = "https://office.nengu.tech/api/leads";
   $ch = curl_init($url);
   $options = array(
     CURLOPT_RETURNTRANSFER => true,         // return web page
@@ -68,4 +68,4 @@ function sendLeadToPerfex(){
   curl_close($ch);
   var_dump($data);
 }
-sendLeadToPerfex();;
+//sendLeadToPerfex();;

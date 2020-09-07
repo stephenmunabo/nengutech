@@ -221,7 +221,10 @@ get_header();
                             <h2>Let's help you on the path to a new career</h2>
                             <h4>Register here and we will do the rest. </h4>
                         </div>
-                        <form action="">
+
+                        <iframe width="600" height="850" src="https://office.nengu.tech/forms/wtl/69e213f77547e9e5316af3e3451b30ae" frameborder="0" allowfullscreen></iframe>
+
+                        <form style="display: hidden" action="">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="single-inpt-blk">
