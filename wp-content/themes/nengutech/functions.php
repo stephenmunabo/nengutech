@@ -29,7 +29,7 @@ function sendLeadToPerfex(){
   
   $request = array(
     'source' => 'Marketing Site',
-    'status'  => 'active',
+    'status'  => '1',
     'name'    => 'test lead',
     'email' => 'test@test.com',
     'phonenumber' => '214-555-5555'
