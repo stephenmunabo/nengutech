@@ -63,8 +63,8 @@ function sendLeadToPerfex(){
   $data = curl_exec($ch);
   $curl_errno = curl_errno($ch);
   $curl_error = curl_error($ch);
-  //echo $curl_errno;
-  //echo $curl_error;
+  echo $curl_errno;
+  echo $curl_error;
   curl_close($ch);
   var_dump($data); exit;
 }
