@@ -28,15 +28,16 @@ function special_nav_class ($classes, $item) {
 function sendLeadToPerfex(){
   
   $request = array(
-    'source' => 'Marketing Site',
+    'source' => '1',
     'status'  => '1',
+    'assigned' => '2',
     'name'    => 'test lead',
     'email' => 'test@test.com',
     'phonenumber' => '214-555-5555'
 
   );
 
-  $url = "https://nengu.tech/api/leads";
+  $url = "https://office.nengu.tech/api/leads";
   $ch = curl_init($url);
   $options = array(
     CURLOPT_RETURNTRANSFER => true,         // return web page
