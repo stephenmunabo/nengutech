@@ -54,7 +54,7 @@
     <meta name="theme-color" content="#ffffff">
 
     <script>
-    document.domain='nengu.tech';
+    document.domain='office.nengu.tech';
     </script>
 
     <?php wp_head(); ?>
