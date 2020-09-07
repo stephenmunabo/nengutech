@@ -63,7 +63,7 @@ get_header();
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
                             <h4>Aws</h4>
-                            <p>AWS Solution Architect course is aimed at empowering you with skills that will help you in the design of fault-tolerant, cost efficient & scalable distributed systems on platforms such as AWS.</p>
+                            <p>Our AWS Solution Architect course is aimed at empowering you with skills that will help you in the design of fault-tolerant, cost-efficient & scalable distributed systems on platforms such as AWS. With skills learned you will be proficient in the crafting of advanced cloud-based solutions and migrating data to the cloud.</p>
                         </div>
                         <a href="" data-toggle="modal" data-target="#modal-aws" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
@@ -72,7 +72,7 @@ get_header();
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
                             <h4>Google Cloud</h4>
-                            <p>We ready to modernize or completely redesign and web interfaces to align them with the evolving needs of the end-users and industry standards.</p>
+                            <p>Get hands-on practical experience on Google Cloud through labs and exams while pushing yourself and your enterprise to the next level.</p>
                         </div>
                         <a href="" data-toggle="modal" data-target="#modal-google-cloud" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
@@ -81,7 +81,7 @@ get_header();
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
                             <h4>Azure</h4>
-                            <p>Learn to perform archiving and back up, checking workload statistics, system logs, failed updates, memory dumps and trace directory, Examining application servers and much more.</p>
+                            <p>Our certification course will improve your knowledge and skills of implementing, monitoring, and maintaining Microsoft Azure services, including compute, storage, networking, and security.</p>
                         </div>
                         <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
@@ -90,7 +90,7 @@ get_header();
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
                             <h4>Oracle Fusion <br> Middleware</h4>
-                            <p>We develop engaging, innovative, of-the-box ideas, and user experiences that spark powerful consumer-brand relationships</p>
+                            <p>Our certification will improve your knowledge and give you hands-on projects to enable you to rapidly build scalable high-performance applications for the Web.</p>
                         </div>
                         <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
@@ -99,7 +99,7 @@ get_header();
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
                             <h4>SAP Finance</h4>
-                            <p>SAP Certification course is segregated into either the technical or the functional aspect. Technicalities of this course are linked to module customization and programming.</p>
+                            <p>SThe certification will advance your SAP skills, improve your performance, and earn you global recognition in this field.</p>
                         </div>
                         <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
@@ -108,7 +108,7 @@ get_header();
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
                             <h4>Business Analyst</h4>
-                            <p>We develop engaging, innovative, of-the-box ideas, and user experiences that spark powerful consumer-brand relationships</p>
+                            <p>The business analysis course will help you build expertise in the six knowledge areas business analysis planning & monitoring, elicitation, requirements management & communication, enterprise analysis, requirements analysis and solution assessment & validation.</p>
                         </div>
                         <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
@@ -117,7 +117,7 @@ get_header();
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
                             <h4>Scrum Master</h4>
-                            <p>A Scrum Master Certification is aimed at empowering you with servant-leadership skills that are essential for the successful performance of a Scrum Team.</p>
+                            <p>Our certification will empower you with servant leadership skills that are essential for the successful performance of a scrum team.</p>
                         </div>
                         <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
@@ -126,7 +126,7 @@ get_header();
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
                             <h4>Power Bi</h4>
-                            <p>The course is aimed at enhancing your proficiency in using this tool in custom visualization of data, production of reports, analysis and overall use in business intelligence. </p>
+                            <p>Learn how to optimize cloud-based services to facilitate the visualization and sharing of insights based entirely on data. </p>
                         </div>
                         <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
