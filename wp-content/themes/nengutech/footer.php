@@ -54,7 +54,14 @@
                 </div>
                 <div class="col-lg-8 col-md-8">
                     <div class="footer-menu">
-                        <ul>
+                    <?php
+        
+                        wp_nav_menu( array(
+                            'menu' => 'header-menu'
+                        ) );
+                                            
+                    ?>
+                        <ul style="display: none">
                             <li><a href="">Home</a></li>
                             <li><a href="">Collaboration</a></li>
                             <li><a href="">Carrers</a></li>

@@ -210,7 +210,7 @@ get_header();
                             in cloud computing
                             today! </h2>
                         <p>We will train you, provide hands-on projects as well as coach you during pre and post-employment.</p>
-                        <a href="" class="site-btn">Get Started</a>
+                        <a href="" data-toggle="modal" data-target="#cta-modal" class="site-btn">Get Started</a>
                     </div>
                 </div>
             </div>
@@ -234,7 +234,7 @@ get_header();
                     </div>
                     <div class="col-lg-7 d-flex align-items-center">
                         <div class="tm-btn">
-                            <a href="" class="site-btn">Join Our Awesome Team</a>
+                            <a href="for-jobseekers/" class="site-btn">Join Our Awesome Team</a>
                         </div>
                     </div>
                 </div>
