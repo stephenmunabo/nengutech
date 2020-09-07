@@ -465,14 +465,14 @@ get_header();
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="tst-img">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/tsti-img.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Rehad-Patela.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 d-flex align-items-center">
                                     <div class="tst-desc">
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/qt-img.svg" alt="">
                                         <p>“ Before Nengutech, I was wasting time by learning too many and wrong things, but Nengutech held my hand and showed me the right direction and since then I have never looked back. “</p>
-                                        <h4>Gregory Hayes - CEO of photoin.id</h4>
+                                        <h4>Rehad Patela</h4>
                                     </div>
                                 </div>
                             </div>
