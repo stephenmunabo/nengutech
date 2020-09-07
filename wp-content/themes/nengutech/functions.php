@@ -26,7 +26,7 @@ function special_nav_class ($classes, $item) {
 }
 
 function sendLeadToPerfex(){
-  $handle = curl_init();
+  
   $request = array(
     'source' => 'Marketing Site',
     'status'  => 'active',
