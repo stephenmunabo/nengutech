@@ -108,7 +108,7 @@ get_header();
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
                             <h4>Business Analyst</h4>
-                            <p>The BA course will help you build expertise in the six knowledge areas business analysis planning & monitoring, elicitation, requirements management & communication, enterprise analysis, requirements analysis and solution assessment & validation.</p>
+                            <p>Build expertise in the six knowledge areas business analysis planning & monitoring, elicitation, requirements management & communication, enterprise analysis, requirements analysis and solution assessment & validation.</p>
                         </div>
                         <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
