@@ -63,7 +63,7 @@ get_header();
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
                             <h4>Aws</h4>
-                            <p>Our AWS Solution Architect course is aimed at empowering you with skills that will help you in the design of fault-tolerant, cost-efficient & scalable distributed systems on platforms such as AWS. With skills learned you will be proficient in the crafting of advanced cloud-based solutions and migrating data to the cloud.</p>
+                            <p>Our AWS Solution Architect course is aimed at empowering you with skills that will help you in the design of fault-tolerant, cost-efficient & scalable distributed systems on platforms such as AWS.</p>
                         </div>
                         <a href="" data-toggle="modal" data-target="#modal-aws" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
@@ -108,7 +108,7 @@ get_header();
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
                             <h4>Business Analyst</h4>
-                            <p>The business analysis course will help you build expertise in the six knowledge areas business analysis planning & monitoring, elicitation, requirements management & communication, enterprise analysis, requirements analysis and solution assessment & validation.</p>
+                            <p>The BA course will help you build expertise in the six knowledge areas business analysis planning & monitoring, elicitation, requirements management & communication, enterprise analysis, requirements analysis and solution assessment & validation.</p>
                         </div>
                         <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
