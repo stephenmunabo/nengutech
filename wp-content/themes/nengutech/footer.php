@@ -115,8 +115,8 @@
 
     </script>
 
-<script>
-        document.domain='office.nengu.tech';
+    <script>
+        document.domain= "office.nengu.tech";
     </script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
