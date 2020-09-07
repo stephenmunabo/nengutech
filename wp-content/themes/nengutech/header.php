@@ -53,9 +53,7 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <script>
-    document.domain='office.nengu.tech';
-    </script>
+    
 
     <?php wp_head(); ?>
 
