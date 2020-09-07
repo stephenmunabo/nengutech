@@ -401,14 +401,14 @@ get_header();
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="tst-img">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/tsti-img.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/James-Omotoshin.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 d-flex align-items-center">
                                     <div class="tst-desc">
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/qt-img.svg" alt="">
-                                        <p>“ (NAME) launched a new career in Power BI by taking courses on Nengu Tech. What will you be able to do? “</p>
-                                        <h4>Gregory Hayes - Developer MS Power BI</h4>
+                                        <p>“ I launched a new career in Power BI by taking courses on Nengu Tech. What will you be able to do? “</p>
+                                        <h4>James Omotoshin - Developer MS Power BI</h4>
                                     </div>
                                 </div>
                             </div>
@@ -417,14 +417,14 @@ get_header();
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="tst-img">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/tsti-img.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Joyce-M-Stadmore.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 d-flex align-items-center">
                                     <div class="tst-desc">
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/qt-img.svg" alt="">
                                         <p>“ You get well-detailed resources, purposeful tutors, projects to work on to improve your skills right away on the platform. It's worth each and every coin. “</p>
-                                        <h4>Gregory Hayes - CEO of photoin.id</h4>
+                                        <h4>Joyce M Stadmore</h4>
                                     </div>
                                 </div>
                             </div>
@@ -433,14 +433,14 @@ get_header();
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="tst-img">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/tsti-img.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Sam-Kosha.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 d-flex align-items-center">
                                     <div class="tst-desc">
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/qt-img.svg" alt="">
                                         <p>“ I knew very little in the tech world before I started learning on Nengu Tech. It was my big intro to this complex industry and proof that tech is not difficult and that with the right team like Nengutech you can be a guru in the tech world. Nengutech changed my career. “</p>
-                                        <h4>Gregory Hayes - CEO of photoin.id</h4>
+                                        <h4>Sam Kosha - CEO of photoin.id</h4>
                                     </div>
                                 </div>
                             </div>
@@ -449,14 +449,14 @@ get_header();
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="tst-img">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/tsti-img.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Wesley-Nyums.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 d-flex align-items-center">
                                     <div class="tst-desc">
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/qt-img.svg" alt="">
                                         <p>“ Nengu tech did excellent work on photoin.id. The project was a great success. They not only deliver innovative web and mobile applications but also are very committed to deep understand the needs of their clients. “</p>
-                                        <h4>Gregory Hayes - CEO of photoin.id</h4>
+                                        <h4>Wesley Nyums </h4>
                                     </div>
                                 </div>
                             </div>
