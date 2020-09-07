@@ -158,7 +158,7 @@ get_header();
                 </div>
                 <div class="col-lg-7 d-flex align-items-center">
                     <div class="para-texts">
-                        <p>We are able to help you with the latest high tech solutions, thanks to our company culture, which is built an everyday learning and self - improvment from each and single task.</p>
+                        <p>We are able to help you with the latest high tech solutions, thanks to our company culture, which is built by everyday learning and self - improvement from each and every single task.</p>
                     </div>
                 </div>
             </div>
@@ -167,7 +167,7 @@ get_header();
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
                             <h4>Training & <br>Staffing</h4>
-                            <p>We find and train technology professionals for the leading jobs on the market</p>
+                            <p>We find and train technology professionals for the leading jobs in the market.</p>
                         </div>
                         <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
@@ -176,7 +176,7 @@ get_header();
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
                             <h4>Mobile and Web <br> Development</h4>
-                            <p>We ready to modernize or completely redesign and web interfaces to align them with the evolving needs of the end-users and industry standards.</p>
+                            <p>We are ready to modernize or completely redesign web interfaces to align them with the evolving needs of the end-users and industry standards.</p>
                         </div>
                         <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
@@ -185,7 +185,7 @@ get_header();
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
                             <h4>Brand <br> Designer</h4>
-                            <p>We develop engaging, innovative, of-the-box ideas, and user experiences that spark powerful consumer-brand relationships</p>
+                            <p>We develop engaging, innovative, out-of-the-box ideas, and user experiences that spark powerful consumer-brand relationships.</p>
                         </div>
                         <a href="" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
@@ -209,7 +209,7 @@ get_header();
                         <h2>Jumpstart a new career
                             in cloud computing
                             today! </h2>
-                        <p>We will train you, provide hands-on projects as well as coaching pre and post-employment.</p>
+                        <p>We will train you, provide hands-on projects as well as coach you during pre and post-employment.</p>
                         <a href="" class="site-btn">Get Started</a>
                     </div>
                 </div>
@@ -390,7 +390,7 @@ get_header();
                 </div>
                 <div class="col-lg-7 d-flex align-items-center">
                     <div class="para-texts">
-                        <p>Nengu tech has been serving our customers for more than 5 years and more than 5000 of our customers are satisfied with our services, and this is the testimonies we have received from several clients who have worked with us </p>
+                        <p>Nengu tech has been serving our customers for more than 5 years and more than 5000 of our customers are satisfied with our services, and this is the testimonies we have received from several clients who have trained with us. </p>
                     </div>
                 </div>
             </div>
