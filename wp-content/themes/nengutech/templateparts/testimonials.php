@@ -6,7 +6,7 @@
                 <div class="col-lg-5">
                     <div class="section-title">
                         <h4>Testimonials</h4>
-                        <h2>What thay say <br> about us</h2>
+                        <h2>What they say <br> about us</h2>
                     </div>
                 </div>
                 <div class="col-lg-7 d-flex align-items-center">
