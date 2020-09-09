@@ -902,7 +902,7 @@ body .gform_wrapper .gform_body .gform_fields .gfield select {
     border-radius: 3px;
 }
 
-.image-up input {
+.ginput_container_fileupload input {
     padding-top: 10px;
     width: 100%;
 }
