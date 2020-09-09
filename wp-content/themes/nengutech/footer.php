@@ -147,7 +147,7 @@
                             <h2>Let's help you on the path to a new career</h2>
                             <h4>Register here and we will do the rest. </h4>
                         </div>
-                        <?php gravity_form_enqueue_scripts( 2, true ); gravity_form( 2, false, false, false, '', true ); ?>
+                        <?php gravity_form_enqueue_scripts( 3, true ); gravity_form( 3, false, false, false, '', true ); ?>
                         <form style="display: none;" action="">
                             <div class="row">
                                 <div class="col-md-6">
