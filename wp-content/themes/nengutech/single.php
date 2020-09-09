@@ -14,7 +14,7 @@ get_header();
 <!-- Hero area start -->
 
 <div class="hero-area">
-       <span class="ptrn-bg" style="background-image: url(<?= get_the_post_thumbnail(); ?>);"></span>
+       <span class="ptrn-bg" style="background-image: url(<?= get_the_post_thumbnail_url(get_the_ID(),'full'); ?>);"></span>
 
         <div class="container">
             <div class="row">
