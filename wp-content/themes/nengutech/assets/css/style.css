@@ -1696,3 +1696,7 @@ body .gform_wrapper .gform_body .gform_fields .gfield select {
     background: #fff;
     padding: 30px 0!important;
 }
+
+.inner-formp-blk .single-inpt-blk {
+    margin-bottom: 2px!important;
+}
