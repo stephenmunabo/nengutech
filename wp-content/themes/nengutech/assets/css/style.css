@@ -1660,7 +1660,7 @@ body .gform_wrapper .gform_body .gform_fields .gfield select {
     padding: 8px 15px;
     margin-bottom: 20px;
     list-style: none;
-    background-color: #f5f5f5;
+    background-color: transparent!important;
     border-radius: 4px;
 }
 

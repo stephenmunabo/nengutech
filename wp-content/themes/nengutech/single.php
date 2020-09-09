@@ -35,6 +35,9 @@ get_header();
                 <div class="col-lg-12">
                     <div class="hero-texts">
                         <h2><?php the_title(); ?></h2>
+                        <div class="breadcrumb">
+                            <?php get_breadcrumb(); ?>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -47,14 +50,6 @@ get_header();
      <!-- Inner form area start -->
     
      <div class="inner-blog-page">
-
-     <div class="row">
-         <div class="col-md-12">
-             <div class="breadcrumb">
-                 <?php get_breadcrumb(); ?>
-             </div>
-         </div>
-     </div>
 
         
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
