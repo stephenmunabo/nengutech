@@ -40,7 +40,8 @@
             <div class="row">
                 <div class="col-lg-6 d-flex align-items-center">
                     <div class="inner-form-blk">
-                        <form action="">
+                    <?php gravity_form_enqueue_scripts( 3, true ); gravity_form( 3, false, false, false, '', true ); ?>
+                        <form style="display: none;" action="">
                             <input type="text" placeholder="Full Name">
                             <input type="text" placeholder="Email Address">
                             <input type="text" placeholder="Company (Optional)">
