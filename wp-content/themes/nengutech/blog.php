@@ -23,16 +23,41 @@
                 <p class="text-center">Featuring articles for creative professionals about current industry marketing trends, the freelance lifestyle, and thought leadership content for the creative staffing business, all written by our freelance copywriters, whom we are pleased
                     to represent. </p>
             </div>
+                    
+                
+                    
+                        
             <div class="row projects">
-                <div class="col-sm-6 item">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/desk.jpg"></a></div>
-                        <div class="col">
-                            <h3 class="name">Project Name</h3>
-                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p>
+
+                <?php 
+                    // the query
+                    $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1)); ?>
+                    
+                    <?php if ( $wpb_all_query->have_posts() ) : ?>
+                        <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
+                            
+                        <div class="col-sm-6 item">
+                            <div class="row">
+                                <a href="<?php the_permalink(); ?>"></a>
+                                <?php $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full'); ?>
+                                <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="<?= $featured_img_url; ?>"></a></div>
+                                <div class="col">
+                                    <h3 class="name"><?php  the_title(); ?></h3>
+                                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
+
+                <?php endwhile; ?>
+
+                <?php wp_reset_postdata(); ?>
+                    
+                    <?php else : ?>
+                        <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+                    <?php endif; ?>
+
+
+
                 <div class="col-sm-6 item">
                     <div class="row">
                         <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/building.jpg"></a></div>
@@ -61,6 +86,8 @@
                     </div>
                 </div>
             </div>
+
+
         </div>
     </div>
 </div>
