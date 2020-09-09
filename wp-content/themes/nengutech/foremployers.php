@@ -222,7 +222,8 @@ get_header();
                             <h4>Register here and we will do the rest. </h4>
                         </div>
 
-                        <form action="">
+                        <?php gravity_form_enqueue_scripts( 2, true ); gravity_form( 2, false, false, false, '', true ); ?>
+                        <form style="display: none" action="">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="single-inpt-blk">
