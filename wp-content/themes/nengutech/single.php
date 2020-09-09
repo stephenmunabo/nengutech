@@ -34,7 +34,7 @@ get_header();
             <div class="row">
                 <div class="col-lg-12">
                     <div class="hero-texts">
-                        <h2>Thank you for you submission</h2>
+                        <h2><?php the_title(); ?></h2>
                     </div>
                 </div>
             </div>
