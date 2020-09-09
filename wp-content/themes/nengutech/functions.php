@@ -29,8 +29,9 @@ function get_breadcrumb() {
               the_title();
           }
   } elseif (is_page()) {
-      echo "&nbsp;&nbsp;&#187;&nbsp;&nbsp;";
+      echo "<h2>";
       echo the_title();
+      echo "</h2>";
   } elseif (is_search()) {
       echo "&nbsp;&nbsp;&#187;&nbsp;&nbsp;Search Results for... ";
       echo '"<em>';
