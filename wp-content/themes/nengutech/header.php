@@ -59,7 +59,7 @@
 
 </head>
 
-<?php echo 'tetetetetet'; echo basename( get_page_template() ); ?>
+<?php echo 'tetetetetet'; basename( get_page_template() ); ?>
 
 <?php $slug = basename(get_permalink()); 
 if($slug == 'for-jobseekers' || $slug == 'blog' || is_page_template( '/single.php' )) :
