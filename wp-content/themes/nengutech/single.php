@@ -13,6 +13,20 @@ get_header();
 ?>
 <!-- Hero area start -->
 
+<style>
+    .ptrn-bg {
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+        opacity: 0.6;
+    }
+    
+</style>
+
 <div class="hero-area">
        <span class="ptrn-bg" style="background-image: url(<?= get_the_post_thumbnail_url(get_the_ID(),'full'); ?>);"></span>
 
