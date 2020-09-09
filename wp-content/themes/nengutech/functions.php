@@ -13,13 +13,13 @@ add_theme_support( 'post-thumbnails' );
 add_theme_support( 'menus' );
 
 
-wp_enqueue_script("gforms_ui_datepicker", get_stylesheet_directory_uri() . "/gravityforms/js/jquery-ui/ui.datepicker.js", array("jquery"), "1.3.9", true);
+wp_enqueue_script("gforms_ui_datepicker", WP_PLUGIN_URL . "/gravityforms/js/jquery-ui/ui.datepicker.js", array("jquery"), "1.3.9", true);
 
-wp_enqueue_script("gforms_datepicker", get_stylesheet_directory_uri() . "/gravityforms/js/datepicker.js", array("gforms_ui_datepicker"), "1.3.9", true);
+wp_enqueue_script("gforms_datepicker", WP_PLUGIN_URL . "/gravityforms/js/datepicker.js", array("gforms_ui_datepicker"), "1.3.9", true);
 
-wp_enqueue_script("gforms_conditional_logic_lib", get_stylesheet_directory_uri() . "/gravityforms/js/conditional_logic.js", array("gforms_ui_datepicker"), "1.3.9", true);
+wp_enqueue_script("gforms_conditional_logic_lib", WP_PLUGIN_URL . "/gravityforms/js/conditional_logic.js", array("gforms_ui_datepicker"), "1.3.9", true);
 
-wp_enqueue_style("gforms_css", get_stylesheet_directory_uri() . "/gravityforms/css/forms.css");
+wp_enqueue_style("gforms_css", WP_PLUGIN_URL . "/gravityforms/css/forms.css");
 
 
 
