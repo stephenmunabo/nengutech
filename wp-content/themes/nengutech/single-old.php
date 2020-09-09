@@ -1,6 +1,6 @@
 <?php
 /**
- * Template for sll single pages
+ * The template for displaying all single posts
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
@@ -8,31 +8,11 @@
  * @subpackage Nengutech
  * @since Nengutech 1.0
  */
-get_header();
+
+ get_header();
 
 ?>
-<!-- Hero area start -->
-
-<div class="hero-area">
-       <span class="ptrn-bg" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/pattarn-img.png);"></span>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="hero-texts">
-                        <h2>Thank you for you submission</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Hero area end -->
-
-
-     <!-- Inner form area start -->
-    
-     <div class="inner-blog-page">
+<div class="inner-blog-page">
 
         
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -55,12 +35,6 @@ get_header();
 
                 <?php endwhile; ?>
             <?php endif; ?>
-    </div>
-    
-    
-    <!-- Inner form area end -->
-
-
-
-
-<?php get_footer(); ?>
+</div>
+            
+ <?php get_footer(); ?>
