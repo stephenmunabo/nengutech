@@ -336,58 +336,55 @@ get_header();
                 </div>
             </div>
             <div class="row mt-80">
+            
                 <div class="col-lg-5">
+                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+                <?php static $count = 0;
+                if ($count == "n") { break; }
+                else { ?>
+
+                <?php if($count == 0): ?>
                     <div class="signle-blog-items">
                         <div class="signle-blog-inner">
                             <div class="blog-img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/blgo-img.jpg" alt="">
+                                <?php $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full'); ?>
+                                <img src="<?= $featured_img_url; ?>" alt="">
                             </div>
                             <div class="blog-texts">
-                                <h3>Being the savage's bowsman.</h3>
-                                <p>In the tumultuous business of cutting-in and attending to a whale, there is much running.</p>
-                                <a href="">Read More <span><img src="<?php echo get_template_directory_uri(); ?>/assets/img/arrow-right.svg" alt=""></span></a>
+                                <h3><?php the_title(); ?></h3>
+                                <p><?= substr(get_the_content(), 0, 90); ?></p>
+                                
+                                <a href="<?php echo get_permalink(); ?>">Read More <span><img src="<?php echo get_template_directory_uri(); ?>/assets/img/arrow-right.svg" alt=""></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                
                 <div class="col-lg-7">
+                    <?php else : ?>
                     <div class="right-blog-all">
                         <div class="r-signle-blog">
                             <div class="r-signle-blog-inner">
                                 <div class="r-blog-img">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/blog-2.jpg" alt="">
+                                    <?php $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full'); ?>
+                                    <img src="<?= $featured_img_url; ?>" alt="">
                                 </div>
                                 <div class="r-blog-texts">
-                                    <h3>Being the savage's bowsman.</h3>
-                                    <p>In the tumultuous business of cutting-in and attending to a whale, there is much running.</p>
-                                    <a href="">Read More <span><img src="<?php echo get_template_directory_uri(); ?>/assets/img/arrow-right.svg" alt=""></span></a>
+                                    <h3><?php the_title(); ?></h3>
+                                    <p><?= substr(get_the_content(), 0, 90); ?></p>
+                                    <a href="<?php echo get_permalink(); ?>">Read More <span><img src="<?php echo get_template_directory_uri(); ?>/assets/img/arrow-right.svg" alt=""></span></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="r-signle-blog">
-                            <div class="r-signle-blog-inner">
-                                <div class="r-blog-img">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/blog-3.jpg" alt="">
-                                </div>
-                                <div class="r-blog-texts">
-                                    <h3>Being the savage's bowsman.</h3>
-                                    <p>In the tumultuous business of cutting-in and attending to a whale, there is much running.</p>
-                                    <a href="">Read More <span><img src="<?php echo get_template_directory_uri(); ?>/assets/img/arrow-right.svg" alt=""></span></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="r-signle-blog">
-                            <div class="r-signle-blog-inner">
-                                <div class="r-blog-img">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/blog-4.jpg" alt="">
-                                </div>
-                                <div class="r-blog-texts">
-                                    <h3>Being the savage's bowsman.</h3>
-                                    <p>In the tumultuous business of cutting-in and attending to a whale, there is much running.</p>
-                                    <a href="">Read More <span><img src="<?php echo get_template_directory_uri(); ?>/assets/img/arrow-right.svg" alt=""></span></a>
-                                </div>
-                            </div>
-                        </div>
+                    </div>
+                    <?php endif; ?>
+
+                <?php $count++; } ?>
+                <?php endwhile; ?>
+                <?php endif; ?>
+                       
                     </div>
                 </div>
             </div>
