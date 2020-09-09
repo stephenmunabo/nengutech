@@ -258,7 +258,7 @@ get_header();
                 <div class="sigle-team-main-inner">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/stephenm.png" alt="">
                     <div class="team-content-blk">
-                        <h4>Stephen Munabo <span>Operations</span></h4>
+                        <h4>Stephen Munabo <span>Business Development</span></h4>
                         <div class="tm-sc-link">
                             <a href=""><i class="fab fa-facebook-f"></i></a>
                             <a href=""><i class="fab fa-instagram"></i></a>
