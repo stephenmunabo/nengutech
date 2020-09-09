@@ -58,6 +58,7 @@
     <?php wp_head(); ?>
 
 </head>
+<?php echo esc_html( get_page_template_slug() ); ?>
 <?php $slug = basename(get_permalink()); 
 if($slug == 'for-jobseekers' || $slug == 'blog' || is_page_template( '/single.php' )) :
 ?>
