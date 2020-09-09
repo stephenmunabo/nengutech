@@ -25,13 +25,13 @@ function get_breadcrumb() {
       echo "&nbsp;&nbsp;&#187;&nbsp;&nbsp;";
       the_category(' &bull; ');
           if (is_single()) {
-              echo " &nbsp;&nbsp;&#187;&nbsp;&nbsp; ";
+              echo "<h2>";
               the_title();
+              echo "</h2>";
           }
   } elseif (is_page()) {
-      echo "<h2>";
+      echo "&nbsp;&nbsp;&#187;&nbsp;&nbsp;";
       echo the_title();
-      echo "</h2>";
   } elseif (is_search()) {
       echo "&nbsp;&nbsp;&#187;&nbsp;&nbsp;Search Results for... ";
       echo '"<em>';
