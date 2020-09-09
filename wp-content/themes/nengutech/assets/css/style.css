@@ -1684,6 +1684,7 @@ body .gform_wrapper .gform_body .gform_fields .gfield select {
     background: #f0f0f0;
     border-radius: 3px;
     height: 200px!important;
+    border: none;
     border-bottom: 2px solid #8c8c8c;
 }
 
