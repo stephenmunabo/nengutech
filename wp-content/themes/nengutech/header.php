@@ -53,12 +53,12 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    
+    <?php echo esc_html( get_page_template_slug() ); ?>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.min.js"></script>
     <?php wp_head(); ?>
 
 </head>
-<?php echo esc_html( get_page_template_slug() ); ?>
+
 <?php $slug = basename(get_permalink()); 
 if($slug == 'for-jobseekers' || $slug == 'blog' || is_page_template( '/single.php' )) :
 ?>
