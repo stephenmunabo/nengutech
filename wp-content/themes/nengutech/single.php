@@ -22,7 +22,7 @@ get_header();
                             <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
                                 <div class="intro">
                                     <h1 class="text-center"><?php the_title(); ?></h1>
-                                    <p class="text-center"><span class="by">by</span> <a href="#">Author Name</a><span class="date"><?php echo get_the_date(); ?> </span></p><img class="img-fluid" src="assets/img/desk.jpg"></div>
+                                    <p class="text-center"><span class="by">by</span> <a href="#">Author Name</a><span class="date"><?php echo get_the_date(); ?> </span></p><?= get_the_post_thumbnail(); ?></div>
                                     <?php the_content(); ?>
                             </div>
                         </div>
