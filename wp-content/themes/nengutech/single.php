@@ -2,19 +2,19 @@
 /**
  * The template for displaying all single posts
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package WordPress
- * @subpackage Twenty_Nineteen
- * @since Twenty Nineteen 1.0
+ * @package Nengutech.com
+ * @subpackage Nengutech
+ * @since Nengutech 1.0
  */
 
-get_header();
-?>
+ get_header();
 
+?>
 <div class="inner-blog-page">
-        <div class="container">
-            <div class="row">
+
+        
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
             <div class="article-clean">
                     <div class="container">
@@ -34,9 +34,6 @@ get_header();
                 </div>
                 <?php endwhile; ?>
                 <?php endif; ?>
-            </div>
-    </div>
+            
 </div>
-
-    <?php
-get_footer();
+ <?php get_footer(); ?>
