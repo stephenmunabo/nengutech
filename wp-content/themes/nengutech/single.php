@@ -27,7 +27,7 @@
                                         $author_name = get_the_author_meta( 'nicename', $author_id ); 
                                     ?>
                                     <p class="text-center"><span class="by">by</span> <a href="#"><?= $author_name; ?></a><span class="date"><?php echo get_the_date(); ?> </span></p><?= get_the_post_thumbnail(); ?></div>
-                                    <?php //the_content(); ?>
+                                    <?php the_content(); ?>
                             </div>
                         </div>
                     </div>
@@ -37,5 +37,4 @@
             <?php endif; ?>
 </div>
             
-</div>
  <?php get_footer(); ?>
