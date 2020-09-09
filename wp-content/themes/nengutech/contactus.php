@@ -71,33 +71,6 @@
 
     <?php include get_theme_file_path( '/templateparts/testimonials.php' ); ?>
 
-    <!-- call to action start -->
 
-    <div class="call-to-action-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="action-bk">
-                        <div class="row">
-                            <div class="col-lg-7 d-flex align-items-center">
-                                <div class="call-to-action-texts">
-                                    <h2>Let’s start working together on your amazing project.</h2>
-                                    <p>Challenge us. We want to work with you to create the really cool stuff.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 d-flex align-items-center">
-                                <div class="call-top-ac-btn">
-                                    <a href="" class="site-btn">Let's Talk</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- call to action end -->
 
     <?php get_footer(); ?>
