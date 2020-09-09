@@ -338,7 +338,10 @@ get_header();
             <div class="row mt-80">
             
                 <div class="col-lg-5">
-                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                <?php
+                $q = new WP_Query( 'posts_per_page=4' );
+                 if ( $q->have_posts() ) : while ( $q->have_posts() ) : $q->the_post(); 
+                 ?>
 
                 <?php 
                 
