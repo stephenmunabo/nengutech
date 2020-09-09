@@ -35,7 +35,7 @@ get_header();
      <div class="inner-form-page">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 align-items-center">
+                <div class="col-lg-6 align-items-center" style="margin-top: 201px;">
                     <h2 style="color: #4A90E2;">A member of our training staff will reach out to you within 72hour for a discovery call.</h2>
                     <p style="color: #4A90E2;">Whether you are looking for staffing service, software development, or training, our team is ready to answer any questions you may have.</p>
                 </div>
