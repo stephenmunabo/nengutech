@@ -13,7 +13,10 @@ add_theme_support( 'post-thumbnails' );
 add_theme_support( 'menus' );
 
 
-
+function show_template() {
+  global $template;
+  echo basename($template);
+}
 
 
 wp_enqueue_script("gforms_ui_datepicker", WP_PLUGIN_URL . "/gravityforms/js/jquery-ui/ui.datepicker.js", array("jquery"), "1.3.9", true);
