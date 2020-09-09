@@ -340,9 +340,12 @@ get_header();
                 <div class="col-lg-5">
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-                <?php static $count = 0;
-                if ($count == "4") { break; }
-                else { ?>
+                <?php 
+                
+                    $count = 0;
+                    $count++;
+                
+                ?>
 
                 <?php if($count == 0): ?>
                     <div class="signle-blog-items">
