@@ -60,7 +60,7 @@
 </head>
 
 <?php $slug = basename(get_permalink()); 
-if($slug == 'for-jobseekers' || $slug == 'blog' || show_template() == 'single.php') :
+if($slug == 'for-jobseekers' || $slug == 'blog') :
 ?>
 
 <body class="jobs">
@@ -75,7 +75,7 @@ if($slug == 'for-jobseekers' || $slug == 'blog' || show_template() == 'single.ph
             <div class="row">
                 <div class="col-lg-3 d-flex align-items-center">
                     <div class="site-logo">
-                        <?php if($slug == 'for-jobseekers' || $slug == 'blog' || show_template() == 'single.php') : ?>
+                        <?php if($slug == 'for-jobseekers' || $slug == 'blog') : ?>
                         <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-gray.svg" alt=""></a>
                         <?php else : ?>
                         <a href="/"><img class="non-stc" src="<?php echo get_template_directory_uri(); ?>/assets/img/site-logo.svg" alt=""><img class="sticky-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-gray.svg" alt=""></a>
