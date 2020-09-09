@@ -65,7 +65,7 @@ if($slug == 'for-jobseekers' || $slug == 'blog') :
 
 <body class="jobs">
 <?php else: ?>
-<body>
+<body class="white-header-fix">
 <?php endif;?>
 
 
