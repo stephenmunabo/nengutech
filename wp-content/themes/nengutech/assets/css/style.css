@@ -1691,3 +1691,8 @@ body .gform_wrapper .gform_body .gform_fields .gfield select {
 .modal-content .single-inpt-blk {
     margin-bottom: 2px!important;
 }
+
+.modal-content .register-area {
+    background: #fff;
+    padding: 30px 0!important;
+}
