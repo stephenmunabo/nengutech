@@ -15,7 +15,7 @@ add_theme_support( 'menus' );
 
 function show_template() {
   global $template;
-  echo basename($template);
+  return basename($template);
 }
 
 
