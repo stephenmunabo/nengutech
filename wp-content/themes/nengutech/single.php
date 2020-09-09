@@ -16,7 +16,7 @@
 
         
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-            <div class="article-clean">
+                <div class="article-clean">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
@@ -32,8 +32,10 @@
                         </div>
                     </div>
                 </div>
+
                 <?php endwhile; ?>
-                <?php endif; ?>
+            <?php endif; ?>
+</div>
             
 </div>
  <?php get_footer(); ?>
