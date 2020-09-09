@@ -59,7 +59,7 @@
 
 </head>
 <?php $slug = basename(get_permalink()); 
-if($slug == 'for-jobseekers' || $slug == 'blog' || $slug == 'single') :
+if($slug == 'for-jobseekers' || $slug == 'blog' || is_page_template( 'single.php' )) :
 ?>
 
 <body class="jobs">
