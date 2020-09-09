@@ -341,7 +341,7 @@ get_header();
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
                 <?php static $count = 0;
-                if ($count == "n") { break; }
+                if ($count == "4") { break; }
                 else { ?>
 
                 <?php if($count == 0): ?>
