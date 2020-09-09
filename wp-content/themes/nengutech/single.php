@@ -14,7 +14,7 @@ get_header();
 <!-- Hero area start -->
 
 <div class="hero-area">
-       <span class="ptrn-bg" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/pattarn-img.png);"></span>
+       <span class="ptrn-bg" style="background-image: url(<?= get_the_post_thumbnail(); ?>);"></span>
 
         <div class="container">
             <div class="row">
