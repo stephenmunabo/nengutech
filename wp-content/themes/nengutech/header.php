@@ -60,7 +60,7 @@
 </head>
 
 <?php $slug = basename(get_permalink()); 
-if($slug == 'for-jobseekers' || $slug == 'blog' || how_template() == 'single.php') :
+if($slug == 'for-jobseekers' || $slug == 'blog' || show_template() == 'single.php') :
 ?>
 
 <body class="jobs">
