@@ -38,7 +38,7 @@
                             
                         <div class="col-sm-6 item">
                             <div class="row">
-                                <a href="<?php the_permalink(); ?>">
+                                <a href="<?php echo get_permalink(); ?>">
                                 <?php $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full'); ?>
                                 <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="<?= $featured_img_url; ?>"></a></div>
                                 <div class="col">
