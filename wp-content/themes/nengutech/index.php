@@ -343,7 +343,7 @@ get_header();
                 <?php 
                 
                     $count = 0;
-                    $count++;
+                   
                 
                 ?>
 
@@ -384,7 +384,7 @@ get_header();
                     </div>
                     <?php endif; ?>
 
-                <?php $count++; } ?>
+                <?php $count++; ?>
                 <?php endwhile; ?>
                 <?php endif; ?>
                        
