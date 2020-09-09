@@ -698,6 +698,11 @@ a:hover {
     flex: 0 0 100px;
 }
 
+.r-blog-img img {
+    object-fit: cover;
+    height: 100px;
+}
+
 .r-blog-texts {
     padding-left: 25px;
 }
