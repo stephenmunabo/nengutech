@@ -245,7 +245,7 @@ get_header();
                 <div class="sigle-team-main-inner">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team-img-1.jpg" alt="">
                     <div class="team-content-blk">
-                        <h4>Cyril Nambangi <span>CTO of Nengu Tech</span></h4>
+                        <h4>Cyril Nambangi <span>CFO</span></h4>
                         <div class="tm-sc-link">
                             <a href=""><i class="fab fa-facebook-f"></i></a>
                             <a href=""><i class="fab fa-instagram"></i></a>
@@ -256,7 +256,59 @@ get_header();
             </div>
             <div class="single-team-item">
                 <div class="sigle-team-main-inner">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team-img-1.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/stephenm.png" alt="">
+                    <div class="team-content-blk">
+                        <h4>Stephen Munabo <span>Operations</span></h4>
+                        <div class="tm-sc-link">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-team-item">
+                <div class="sigle-team-main-inner">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/giorno.png" alt="">
+                    <div class="team-content-blk">
+                        <h4>Giorno Tientcheu <span>CEO</span></h4>
+                        <div class="tm-sc-link">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-team-item">
+                <div class="sigle-team-main-inner">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Ashish-Jain.png" alt="">
+                    <div class="team-content-blk">
+                        <h4>Ashish Jain <span>CTO of Nengu Tech</span></h4>
+                        <div class="tm-sc-link">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-team-item">
+                <div class="sigle-team-main-inner">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder.png" alt="">
+                    <div class="team-content-blk">
+                        <h4>Jenifer <span>Marketing Director</span></h4>
+                        <div class="tm-sc-link">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-team-item">
+                <div class="sigle-team-main-inner">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder.png" alt="">
                     <div class="team-content-blk">
                         <h4>Cyril Nambangi <span>CTO of Nengu Tech</span></h4>
                         <div class="tm-sc-link">
@@ -269,7 +321,7 @@ get_header();
             </div>
             <div class="single-team-item">
                 <div class="sigle-team-main-inner">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team-img-1.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder.png" alt="">
                     <div class="team-content-blk">
                         <h4>Cyril Nambangi <span>CTO of Nengu Tech</span></h4>
                         <div class="tm-sc-link">
@@ -282,7 +334,7 @@ get_header();
             </div>
             <div class="single-team-item">
                 <div class="sigle-team-main-inner">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team-img-1.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder.png" alt="">
                     <div class="team-content-blk">
                         <h4>Cyril Nambangi <span>CTO of Nengu Tech</span></h4>
                         <div class="tm-sc-link">
@@ -295,7 +347,7 @@ get_header();
             </div>
             <div class="single-team-item">
                 <div class="sigle-team-main-inner">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team-img-1.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder.png" alt="">
                     <div class="team-content-blk">
                         <h4>Cyril Nambangi <span>CTO of Nengu Tech</span></h4>
                         <div class="tm-sc-link">
@@ -308,59 +360,7 @@ get_header();
             </div>
             <div class="single-team-item">
                 <div class="sigle-team-main-inner">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team-img-1.jpg" alt="">
-                    <div class="team-content-blk">
-                        <h4>Cyril Nambangi <span>CTO of Nengu Tech</span></h4>
-                        <div class="tm-sc-link">
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                            <a href=""><i class="fab fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single-team-item">
-                <div class="sigle-team-main-inner">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team-img-1.jpg" alt="">
-                    <div class="team-content-blk">
-                        <h4>Cyril Nambangi <span>CTO of Nengu Tech</span></h4>
-                        <div class="tm-sc-link">
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                            <a href=""><i class="fab fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single-team-item">
-                <div class="sigle-team-main-inner">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team-img-1.jpg" alt="">
-                    <div class="team-content-blk">
-                        <h4>Cyril Nambangi <span>CTO of Nengu Tech</span></h4>
-                        <div class="tm-sc-link">
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                            <a href=""><i class="fab fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single-team-item">
-                <div class="sigle-team-main-inner">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team-img-1.jpg" alt="">
-                    <div class="team-content-blk">
-                        <h4>Cyril Nambangi <span>CTO of Nengu Tech</span></h4>
-                        <div class="tm-sc-link">
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                            <a href=""><i class="fab fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single-team-item">
-                <div class="sigle-team-main-inner">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team-img-1.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder.png" alt="">
                     <div class="team-content-blk">
                         <h4>Cyril Nambangi <span>CTO of Nengu Tech</span></h4>
                         <div class="tm-sc-link">
