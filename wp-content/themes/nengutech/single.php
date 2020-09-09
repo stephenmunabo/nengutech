@@ -12,7 +12,7 @@
 get_header();
 ?>
 
-<div class="inner-form-page">
+<div class="inner-blog-page">
         <div class="container">
             <div class="row">
             <div class="article-clean">

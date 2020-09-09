@@ -902,6 +902,11 @@ body .gform_wrapper .gform_body .gform_fields .gfield select {
     border-radius: 3px;
 }
 
+#inner-blog-page {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
 #input_1_8 {
     padding-top: 10px;
     width: 100%;
