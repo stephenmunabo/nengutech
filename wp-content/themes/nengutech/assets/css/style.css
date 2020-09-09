@@ -1673,3 +1673,20 @@ body .gform_wrapper .gform_body .gform_fields .gfield select {
     color: #fff;
     text-decoration: none;
 }
+
+.gform_wrapper textarea {
+    font-size: inherit;
+    font-family: inherit;
+    letter-spacing: normal;
+    padding: 6px 8px;
+    line-height: 1.5;
+    resize: none;
+    background: #f0f0f0;
+    border-radius: 3px;
+    height: 200px!important;
+    border-bottom: 2px solid #8c8c8c;
+}
+
+.modal-content .single-inpt-blk {
+    margin-bottom: 2px!important;
+}
