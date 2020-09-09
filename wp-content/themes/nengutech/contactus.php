@@ -35,11 +35,11 @@
     
     <!-- Inner form area start -->
     
-    <div class="inner-formp-page">
+    <div class="inner-form-page">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 d-flex align-items-center">
-                    <div class="inner-form-blk">
+                    <div class="inner-formp-blk">
                         <br>
                         <br>
                     <?php gravity_form_enqueue_scripts( 3, true ); gravity_form( 3, false, false, false, '', true ); ?>
