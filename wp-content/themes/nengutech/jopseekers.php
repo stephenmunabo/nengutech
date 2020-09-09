@@ -22,7 +22,7 @@ get_header();
                             need to flourish your
                             career</h2>
                         <p>Learn Aws, Google, Cloud, Azure, and many other booming technologies to grow your career.</p>
-                        <a href="" class="site-btn">Let's Talk</a>
+                        <a href="" data-toggle="modal" data-target="#cta-modal" class="site-btn">Let's Talk</a>
                     </div>
                 </div>
                 <div class="col-lg-6 order-first order-lg-last">
