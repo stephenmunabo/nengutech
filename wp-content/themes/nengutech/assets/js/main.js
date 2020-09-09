@@ -1,7 +1,7 @@
-(function ($) {
+(function($) {
     "use strict";
 
-    jQuery(document).ready(function ($) {
+    jQuery(document).ready(function($) {
 
 
         $(".embed-responsive iframe").addClass("embed-responsive-item");
@@ -17,17 +17,17 @@
 
 
 
-        $('.menu-open').click(function () {
+        $('.menu-open').click(function() {
 
             $('.site-main-menu').addClass('activee');
-           
+
 
         });
 
-        $('.menu-close').click(function () {
+        $('.menu-close').click(function() {
 
             $('.site-main-menu').removeClass('activee');
-           
+
 
         });
 
@@ -79,7 +79,7 @@
             responsive: {
                 0: {
                     items: 1,
-                     stagePadding: 40,
+                    stagePadding: 40,
 
                 },
                 768: {
@@ -128,7 +128,7 @@
     });
 
 
-    $(window).on('scroll', function () {
+    $(window).on('scroll', function() {
         var scroll = $(window).scrollTop();
         if (scroll < 245) {
             $(".header-bar-section").removeClass("scroll-header");
@@ -137,13 +137,6 @@
         }
     });
 
-
-
-
-    jQuery(window).load(function () {
-
-
-    });
 
 
 }(jQuery));
