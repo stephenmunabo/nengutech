@@ -38,14 +38,16 @@
                             
                         <div class="col-sm-6 item">
                             <div class="row">
-                                <a href="<?php echo get_permalink(); ?>">
+                                
                                 <?php $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full'); ?>
-                                <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="<?= $featured_img_url; ?>"></a></div>
+                                <div class="col-md-12 col-lg-5"><a href="<?php echo get_permalink(); ?>"><img class="img-fluid" src="<?= $featured_img_url; ?>"></a></div>
                                 <div class="col">
-                                    <h3 class="name"><?php  the_title(); ?></h3>
-                                    <p class="description"><?= substr(get_the_content(), 0, 90); ?></p>
+                                    <a href="<?php echo get_permalink(); ?>">
+                                        <h3 class="name"><?php  the_title(); ?></h3>
+                                        <p class="description"><?= substr(get_the_content(), 0, 90); ?></p>
+                                    </a>
                                 </div>
-                                </a>
+                                
                             </div>
                         </div>
 
