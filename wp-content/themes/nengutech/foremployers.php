@@ -218,7 +218,7 @@ get_header();
                 <div class="col-lg-8">
                     <div class="resgister-form-blk">
                         <div class="resiter-top-texts">
-                            <h2>Let's help you on the path to a new career</h2>
+                            <h2>Let's help you fill that vacant role</h2>
                             <h4>Register here and we will do the rest. </h4>
                         </div>
 

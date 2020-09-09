@@ -902,6 +902,11 @@ body .gform_wrapper .gform_body .gform_fields .gfield select {
     border-radius: 3px;
 }
 
+.image-up {
+    padding-top: 10px;
+    width: 100%;
+}
+
 .single-inpt-blk span {
     font-size: 12px;
     font-weight: 400;
