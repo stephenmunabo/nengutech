@@ -54,7 +54,7 @@
     <meta name="theme-color" content="#ffffff">
 
     
-
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.min.js"></script>
     <?php wp_head(); ?>
 
 </head>

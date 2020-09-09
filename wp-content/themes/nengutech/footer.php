@@ -102,7 +102,7 @@
 
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.min.js"></script>
+
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/Popper.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.sticky.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.meanmenu.js"></script>

@@ -175,7 +175,7 @@ get_header();
                             <h4>Register here and we will do the rest. </h4>
                         </div>
                         
-                        <script src="https://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+                        
                         <?php gravity_form( 1, false, false, false, '', true ); ?>
                         <form style="display: none" action="">
                             <div class="row">
