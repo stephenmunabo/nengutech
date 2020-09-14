@@ -297,7 +297,7 @@ get_header();
                 <div class="sigle-team-main-inner">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder.png" alt="">
                     <div class="team-content-blk">
-                        <h4>Jenifer <span>Marketing Director</span></h4>
+                        <h4>Sandra Onogolo <span>Marketing Director</span></h4>
                         <div class="tm-sc-link hide">
                             <a href=""><i class="fab fa-facebook-f"></i></a>
                             <a href=""><i class="fab fa-instagram"></i></a>
