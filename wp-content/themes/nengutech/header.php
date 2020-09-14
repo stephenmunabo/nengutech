@@ -56,6 +56,11 @@
     
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.min.js"></script>
     <?php wp_head(); ?>
+    <style>
+        .hide {
+            display: none;
+        }
+    </style>
 
 </head>
 

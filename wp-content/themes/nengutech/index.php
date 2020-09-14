@@ -245,8 +245,8 @@ get_header();
                 <div class="sigle-team-main-inner">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cyril.png" alt="">
                     <div class="team-content-blk">
-                        <h4>Cyril Nambangi <span>CFO</span></h4>
-                        <div class="tm-sc-link">
+                        <h4>Cyril Nambangi <span>COO</span></h4>
+                        <div  class="tm-sc-link hide">
                             <a href=""><i class="fab fa-facebook-f"></i></a>
                             <a href=""><i class="fab fa-instagram"></i></a>
                             <a href=""><i class="fab fa-linkedin"></i></a>
@@ -259,7 +259,7 @@ get_header();
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/stephenm.png" alt="">
                     <div class="team-content-blk">
                         <h4>Stephen Munabo <span>Business Development</span></h4>
-                        <div class="tm-sc-link">
+                        <div class="tm-sc-link hide">
                             <a href=""><i class="fab fa-facebook-f"></i></a>
                             <a href=""><i class="fab fa-instagram"></i></a>
                             <a href=""><i class="fab fa-linkedin"></i></a>
@@ -272,7 +272,7 @@ get_header();
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/giorno.png" alt="">
                     <div class="team-content-blk">
                         <h4>Giorno Tientcheu <span>CEO</span></h4>
-                        <div class="tm-sc-link">
+                        <div class="tm-sc-link hide">
                             <a href=""><i class="fab fa-facebook-f"></i></a>
                             <a href=""><i class="fab fa-instagram"></i></a>
                             <a href=""><i class="fab fa-linkedin"></i></a>
@@ -284,8 +284,8 @@ get_header();
                 <div class="sigle-team-main-inner">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Ashish-Jain.png" alt="">
                     <div class="team-content-blk">
-                        <h4>Ashish Jain <span>CTO of Nengu Tech</span></h4>
-                        <div class="tm-sc-link">
+                        <h4>Ashish Jain <span>CTO</span></h4>
+                        <div class="tm-sc-link hide">
                             <a href=""><i class="fab fa-facebook-f"></i></a>
                             <a href=""><i class="fab fa-instagram"></i></a>
                             <a href=""><i class="fab fa-linkedin"></i></a>
@@ -298,7 +298,7 @@ get_header();
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder.png" alt="">
                     <div class="team-content-blk">
                         <h4>Jenifer <span>Marketing Director</span></h4>
-                        <div class="tm-sc-link">
+                        <div class="tm-sc-link hide">
                             <a href=""><i class="fab fa-facebook-f"></i></a>
                             <a href=""><i class="fab fa-instagram"></i></a>
                             <a href=""><i class="fab fa-linkedin"></i></a>
