@@ -295,7 +295,7 @@ get_header();
             </div>
             <div class="single-team-item">
                 <div class="sigle-team-main-inner">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sandra.png" alt="">
                     <div class="team-content-blk">
                         <h4>Sandra Onogolo <span>Marketing Director</span></h4>
                         <div class="tm-sc-link hide">
