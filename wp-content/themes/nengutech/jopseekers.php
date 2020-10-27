@@ -72,6 +72,7 @@ get_header();
                 <img src="<?php echo $image[0]; ?>" alt="">
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
+                            <small>SKILLS LEVEL: <em><?php the_field('completion_time'); ?></em></small>
                             <h4><?php the_title(); ?></h4>
                             <p><?php the_content(); ?></p>
                             <h5>ESTIMATED TIME</h5>
