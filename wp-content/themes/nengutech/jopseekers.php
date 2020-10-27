@@ -87,24 +87,24 @@ get_header();
 
 
                     <!-- Modal aws -->
-                    <div id="modal-<?php get_the_ID(); ?>" class="modal fade" role="dialog">
-                    <div class="modal-dialog modal-lg">
+                    <div id="modal-<?php echo $post->ID; ?>" class="modal fade" role="dialog">
+                        <div class="modal-dialog modal-lg">
 
-                        <!-- Modal content-->
-                        <div class="modal-content">
-                        <div class="modal-header">
-                            
-                            <h4 class="modal-title"><?php the_title(); ?></h4>
-                        </div>
-                        <div class="modal-body">
-                            <?php the_content(); ?>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                        </div>
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                
+                                <h4 class="modal-title"><?php the_title(); ?></h4>
+                            </div>
+                            <div class="modal-body">
+                                <?php the_content(); ?>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                            </div>
 
-                    </div>
+                        </div>
                     </div>
 
 
