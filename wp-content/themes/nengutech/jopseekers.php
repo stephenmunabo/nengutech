@@ -72,7 +72,7 @@ get_header();
                 <img src="<?php echo $image[0]; ?>" alt="">
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
-                            <small>SKILLS LEVEL: <em><?php the_field('skill_level'); ?></em></small>
+                            <small>SKILLS LEVEL: <em><?php ucfirst(the_field('skill_level')); ?></em></small>
                             <h4><?php the_title(); ?></h4>
                             <p><?php the_content(); ?></p>
                             <h5>ESTIMATED TIME</h5>
