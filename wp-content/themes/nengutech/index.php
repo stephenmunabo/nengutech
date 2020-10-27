@@ -99,6 +99,43 @@ get_header();
                             <h3>What sets us apart for the rest?</h3>
                         </div>
                         <div class="about-slider owl-carousel">
+
+
+                        <?php
+                        
+                        global $wp_query;
+                        $args = array(
+                        'post_type' => 'programs',
+                        'posts_per_page' => 5,
+                        'tax_query' => array(
+                            array(
+                                'taxonomy' => 'category',
+                                'field' => 'slug',
+                                'terms' => array('featured')
+                            )
+                        )
+                        );
+                        $args = array_merge( $wp_query->query, $args );
+                        $the_query = new WP_Query( $args );
+
+                        // The Loop
+                        while ( $the_query->have_posts() ) : $the_query->the_post();
+                        echo '<li>';
+                        the_title();
+                        echo '</li>';
+                        endwhile;
+
+                        // Reset Post Data
+                        wp_reset_postdata();
+                        
+                        
+                        
+                        ?>
+
+
+
+
+
                             <div class="about-single-sldier-item">
                                 <div class="about-slider-inner">
                                     <h4>We understand the ask</h4>
