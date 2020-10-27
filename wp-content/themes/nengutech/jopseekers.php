@@ -61,7 +61,7 @@ get_header();
             <div class="row mt-70">
 
             <?php 
-            $args = array( 'post_type' => 'programs', 'posts_per_page' => 10 );
+            $args = array( 'post_type' => 'programs', 'posts_per_page' => 10, 'order' => 'ASC' );
             $the_query = new WP_Query( $args ); 
             ?>
             <?php if ( $the_query->have_posts() ) : ?>
