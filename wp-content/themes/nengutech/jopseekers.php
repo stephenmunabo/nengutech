@@ -77,11 +77,12 @@ get_header();
                         <a href="" data-toggle="modal" data-target="#modal-aws" class="see-more-btn">Register <i class="far fa-arrow-right"></i></a>
                     </div>
                 </div>
-
+            <?php endwhile; ?>
             <?php wp_reset_postdata(); ?>
             <?php else:  ?>
             <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
-            <?php endwhile; ?>
+            <?php endif; ?>
+            
 
 
 
