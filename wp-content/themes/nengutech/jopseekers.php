@@ -66,7 +66,7 @@ get_header();
                             <h4>Aws</h4>
                             <p>Our AWS Solution Architect course is aimed at empowering you with skills that will help you in the design of fault-tolerant, cost-efficient & scalable distributed systems on platforms such as AWS.</p>
                         </div>
-                        <a href="" data-toggle="modal" data-target="#modal-aws" class="see-more-btn">Learn More <i class="far fa-arrow-right"></i></a>
+                        <a href="" data-toggle="modal" data-target="#modal-aws" class="see-more-btn">Register <i class="far fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
