@@ -79,9 +79,9 @@ get_header();
                             <p><?php the_field('completion_time'); ?></p>
                         </div>
                         <?php if (get_field('link_type') == 'url'): ?>
-                        <a class="see-more-btn" href="<?php the_field('funnel_url'); ?>">Register <i class="far fa-arrow-right"></a>
+                        <a class="see-more-btn" href="<?php the_field('funnel_url'); ?>">Register</a>
                         <?php else: ?> 
-                        <a href="" data-toggle="modal" data-target="#modal-<?php echo get_the_ID(); ?>" class="see-more-btn">Learn more <i class="far fa-arrow-right"></i></a>
+                        <a href="" data-toggle="modal" data-target="#modal-<?php echo get_the_ID(); ?>" class="see-more-btn">Learn more </i></a>
                         <?php endif; ?>    
                     </div>
 
@@ -92,13 +92,7 @@ get_header();
             
             <?php endif; ?>
             <?php wp_reset_postdata(); ?>
-            
-
-
-
-
-
-                        </div> 
+        
                 
             </div>
         </div>
