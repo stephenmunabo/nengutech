@@ -67,15 +67,6 @@ get_header();
             <?php if ( $the_query->have_posts() ) : ?>
             <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
-
-
-
-            
-
-
-
-
-
             <div class="col-lg-4 col-md-6">
             <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), 'single-post-thumbnail' ); ?>
                 <img src="<?php echo $image[0]; ?>" alt="">
@@ -107,7 +98,7 @@ get_header();
 
 
 
-                
+                        </div> 
                 
             </div>
         </div>
