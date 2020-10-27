@@ -74,7 +74,7 @@ get_header();
                         <div class="single-services-blk-content-inner">
                             <small>SKILLS LEVEL: <em><?php ucfirst(the_field('skill_level')); ?></em></small>
                             <h4><?php the_title(); ?></h4>
-                            <p><?php the_content(); ?></p>
+                            <p><?php echo substr(the_content(), 89); ?></p>
                             <h5>ESTIMATED TIME</h5>
                             <p><?php the_field('completion_time'); ?></p>
                         </div>
