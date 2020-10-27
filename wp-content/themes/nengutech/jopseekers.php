@@ -68,7 +68,8 @@ get_header();
             <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
             <div class="col-lg-4 col-md-6">
-                <?php the_post_thumbnail('thumbnail'); ?>
+            <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
+                <img src="<?php echo $image[0]; ?>" alt="">
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
                             <h4><?php the_title(); ?></h4>
