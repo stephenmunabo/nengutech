@@ -97,7 +97,7 @@ get_header();
                     <div class="about-slider-wrp">
                         <div class="sldier-top-title">
                             <h3>Programs with approaching Enrollment deadlines</h3>
-                            <a style="float: right"  href="https://nengu.tech/for-jobseekers/">View All Programs</a>
+                            <a style="float: rightmargin-bottom: 30px; text-decoration: underline;"  href="https://nengu.tech/for-jobseekers/">View All Programs</a>
                             <div style="clear: both"></div>
                         </div>
                         
@@ -129,7 +129,10 @@ get_header();
                         <div class="about-single-sldier-item">
                                 <div class="about-slider-inner">
                                     <h4><?php the_title(); ?></h4>
+                                    <a href="<?php the_field('funnel_url') ?>">
                                     <img src="<?php echo $image[0]; ?>" alt="">
+                                    </a>
+                                    
                                 </div>
                             </div>
 
