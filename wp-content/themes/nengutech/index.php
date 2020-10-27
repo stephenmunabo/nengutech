@@ -97,7 +97,7 @@ get_header();
                     <div class="about-slider-wrp">
                         <div class="sldier-top-title">
                             <h3>Programs with approaching Enrollment deadlines</h3>
-                            <a style="float: rightmargin-bottom: 30px; text-decoration: underline;"  href="https://nengu.tech/for-jobseekers/">View All Programs</a>
+                            <a style="float: right; margin-bottom: 30px; text-decoration: underline;"  href="https://nengu.tech/for-jobseekers/">View All Programs</a>
                             <div style="clear: both"></div>
                         </div>
                         
