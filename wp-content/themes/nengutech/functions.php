@@ -120,3 +120,24 @@ function sendLeadToPerfex(){
   var_dump($data);
 }
 //sendLeadToPerfex();;
+
+// Our custom post type function
+function create_posttype() {
+ 
+  register_post_type( 'programs',
+  // CPT Options
+      array(
+          'labels' => array(
+              'name' => __( 'Programs' ),
+              'singular_name' => __( 'Program' )
+          ),
+          'public' => true,
+          'has_archive' => true,
+          'rewrite' => array('slug' => 'Programs'),
+          'show_in_rest' => true,
+
+      )
+  );
+}
+// Hooking up our function to theme setup
+add_action( 'init', 'create_posttype' );
