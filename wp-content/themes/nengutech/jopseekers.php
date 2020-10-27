@@ -70,33 +70,14 @@ get_header();
 
 
 
-            <!-- Modal aws -->
-            <div id="modal-<?php echo $post->ID; ?>" class="modal fade" role="dialog">
-                        <div class="modal-dialog modal-lg">
-
-                            <!-- Modal content-->
-                            <div class="modal-content">
-                            <div class="modal-header">
-                                
-                                <h4 class="modal-title"><?php the_title(); ?></h4>
-                            </div>
-                            <div class="modal-body">
-                                <?php the_content(); ?>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            </div>
-                            </div>
-
-                        </div>
-                    </div>
+            
 
 
 
 
 
             <div class="col-lg-4 col-md-6">
-            <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
+            <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), 'single-post-thumbnail' ); ?>
                 <img src="<?php echo $image[0]; ?>" alt="">
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
@@ -309,20 +290,24 @@ get_header();
     
 
     <!--Modals-->
-
+            <?php 
+            $args2 = array( 'post_type' => 'programs', 'posts_per_page' => 10 );
+            $the_query2 = new WP_Query( $args2 ); 
+            ?>
+            <?php if ( $the_query2->have_posts() ) : ?>
+            <?php while ( $the_query2->have_posts() ) : $the_query2->the_post(); ?>
     <!-- Modal aws -->
-<div id="modal-aws" class="modal fade" role="dialog">
+<div id="modal-<?php get_the_ID(); ?>" class="modal fade" role="dialog">
   <div class="modal-dialog modal-lg">
 
     <!-- Modal content-->
     <div class="modal-content">
       <div class="modal-header">
         
-        <h4 class="modal-title">AWS Solutions Architect</h4>
+        <h4 class="modal-title"><?php the_title(); ?></h4>
       </div>
       <div class="modal-body">
-        <p> AWS Solution Architect course is aimed at empowering you with skills that will help you in the design of fault-tolerant, cost efficient & scalable distributed systems on platforms such as AWS. More importantly, with skills leanred you will be proficient the crafting of advanced cloud-based solutions and migrating data to the cloud.</p> 
-        <p>Based on the recommendations by Amazon, as an architect, you will be able to make plans for, design and scale AWS cloud implementations. Taking this course empowers you to be a AWS Solution architect, who can receive an average salary of $126,000 annually.  	</p>
+      <?php the_content(); ?>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -333,7 +318,11 @@ get_header();
 </div>
 
 
-
+            <?php endwhile; ?>
+            <?php wp_reset_postdata(); ?>
+            <?php else:  ?>
+            <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+            <?php endif; ?>
 
 
 
