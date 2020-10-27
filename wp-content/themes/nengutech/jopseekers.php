@@ -230,7 +230,7 @@ get_header();
       </div>
       <div class="modal-body">
       <?php the_content(); ?>
-      <h2>Coming Soon</h2>
+      <h2>Coming Soon!</h2>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
