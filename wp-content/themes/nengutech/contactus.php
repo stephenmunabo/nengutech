@@ -39,7 +39,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 d-flex align-items-center">
-                    <div class="inner-formp-blk">
+                    <div class="inner-formp-blk" style="width: 100%;">
                         <br>
                         <br>
 
@@ -53,7 +53,6 @@
 
                                 b24form({"id":"2","lang":"en","sec":"vhjp0h","type":"inline"});
                         </script>
-
 
 
                     <?php //gravity_form_enqueue_scripts( 3, true ); gravity_form( 3, false, false, false, '', true ); ?>
