@@ -66,9 +66,9 @@ get_header();
             ?>
             <?php if ( $the_query->have_posts() ) : ?>
             <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-            
+
             <div class="col-lg-4 col-md-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/1.png" alt="">
+                <?php the_post_thumbnail('thumbnail'); ?>
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
                             <h4><?php the_title(); ?></h4>
