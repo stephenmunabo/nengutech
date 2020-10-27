@@ -59,16 +59,35 @@ get_header();
                 </div>
             </div>
             <div class="row mt-70">
-                <div class="col-lg-4 col-md-6">
+
+            <?php 
+            $args = array( 'post_type' => 'programs', 'posts_per_page' => 10 );
+            $the_query = new WP_Query( $args ); 
+            ?>
+            <?php if ( $the_query->have_posts() ) : ?>
+            <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+            
+            <div class="col-lg-4 col-md-6">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/1.png" alt="">
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
-                            <h4>Aws</h4>
-                            <p>Our AWS Solution Architect course is aimed at empowering you with skills that will help you in the design of fault-tolerant, cost-efficient & scalable distributed systems on platforms such as AWS.</p>
+                            <h4><?php the_title(); ?></h4>
+                            <p><?php the_content(); ?></p>
                         </div>
                         <a href="" data-toggle="modal" data-target="#modal-aws" class="see-more-btn">Register <i class="far fa-arrow-right"></i></a>
                     </div>
                 </div>
+
+            <?php wp_reset_postdata(); ?>
+            <?php else:  ?>
+            <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+            <?php endif; ?>
+
+
+
+
+
+                
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services-blk">
                         <div class="single-services-blk-content-inner">
