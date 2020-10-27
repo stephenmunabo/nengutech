@@ -74,6 +74,8 @@ get_header();
                         <div class="single-services-blk-content-inner">
                             <h4><?php the_title(); ?></h4>
                             <p><?php the_content(); ?></p>
+                            <h5>ESTIMATED TIME</h5>
+                            <p><?php the_field('completion_time'); ?></p>
                         </div>
                         <a href="" data-toggle="modal" data-target="#modal-aws" class="see-more-btn">Register <i class="far fa-arrow-right"></i></a>
                     </div>
