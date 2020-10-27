@@ -60,8 +60,8 @@ get_header();
             </div>
             <div class="row mt-70">
                 <div class="col-lg-4 col-md-6">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/1.png" alt="">
                     <div class="single-services-blk">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/1.png" alt="">
                         <div class="single-services-blk-content-inner">
                             <h4>Aws</h4>
                             <p>Our AWS Solution Architect course is aimed at empowering you with skills that will help you in the design of fault-tolerant, cost-efficient & scalable distributed systems on platforms such as AWS.</p>
