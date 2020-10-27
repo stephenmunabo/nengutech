@@ -96,8 +96,10 @@ get_header();
                 <div class="col-lg-12">
                     <div class="about-slider-wrp">
                         <div class="sldier-top-title">
-                            <h3>What sets us apart for the rest?</h3>
+                            <h3>Programs with approaching Enrollment deadlines</h3>
+                            <a style="flaot: right"  href="https://nengu.tech/for-jobseekers/">View All Programs</a>
                         </div>
+                        <span style="clear: both"></span>
                         <div class="about-slider owl-carousel">
 
 
@@ -140,46 +142,6 @@ get_header();
                         
                         ?>
 
-
-
-
-
-                            <div class="about-single-sldier-item">
-                                <div class="about-slider-inner">
-                                    <h4>We understand the ask</h4>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/e-1.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="about-single-sldier-item">
-                                <div class="about-slider-inner">
-                                    <h4>We have worked with the technology</h4>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/e-2.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="about-single-sldier-item">
-                                <div class="about-slider-inner">
-                                    <h4>We know what it takes</h4>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/e-3.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="about-single-sldier-item">
-                                <div class="about-slider-inner">
-                                    <h4>We understand the ask</h4>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/e-1.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="about-single-sldier-item">
-                                <div class="about-slider-inner">
-                                    <h4>We have worked with the technology</h4>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/e-2.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="about-single-sldier-item">
-                                <div class="about-slider-inner">
-                                    <h4>We know what it takes</h4>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/e-3.jpg" alt="">
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
