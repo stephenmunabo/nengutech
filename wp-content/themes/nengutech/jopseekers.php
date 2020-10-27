@@ -67,27 +67,11 @@ get_header();
             <?php if ( $the_query->have_posts() ) : ?>
             <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
-            <div class="col-lg-4 col-md-6">
-            <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
-                <img src="<?php echo $image[0]; ?>" alt="">
-                    <div class="single-services-blk">
-                        <div class="single-services-blk-content-inner">
-                            <small>SKILLS LEVEL: <em><?php ucfirst(the_field('skill_level')); ?></em></small>
-                            <h4><?php the_title(); ?></h4>
-                            <p><?php the_content(); ?></p>
-                            <h5>ESTIMATED TIME</h5>
-                            <p><?php the_field('completion_time'); ?></p>
-                        </div>
-                        <?php if (get_field('link_type') == 'url'): ?>
-                        <a class="see-more-btn" href="<?php the_field('funnel_url'); ?>">Register <i class="far fa-arrow-right"></a>
-                        <?php else: ?> 
-                        <a href="" data-toggle="modal" data-target="#modal-<?php get_the_ID(); ?>" class="see-more-btn">Learn more <i class="far fa-arrow-right"></i></a>
-                        <?php endif; ?>    
-                    </div>
 
 
-                    <!-- Modal aws -->
-                    <div id="modal-<?php echo $post->ID; ?>" class="modal fade" role="dialog">
+
+            <!-- Modal aws -->
+            <div id="modal-<?php echo $post->ID; ?>" class="modal fade" role="dialog">
                         <div class="modal-dialog modal-lg">
 
                             <!-- Modal content-->
@@ -111,6 +95,26 @@ get_header();
 
 
 
+            <div class="col-lg-4 col-md-6">
+            <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
+                <img src="<?php echo $image[0]; ?>" alt="">
+                    <div class="single-services-blk">
+                        <div class="single-services-blk-content-inner">
+                            <small>SKILLS LEVEL: <em><?php ucfirst(the_field('skill_level')); ?></em></small>
+                            <h4><?php the_title(); ?></h4>
+                            <p><?php the_content(); ?></p>
+                            <h5>ESTIMATED TIME</h5>
+                            <p><?php the_field('completion_time'); ?></p>
+                        </div>
+                        <?php if (get_field('link_type') == 'url'): ?>
+                        <a class="see-more-btn" href="<?php the_field('funnel_url'); ?>">Register <i class="far fa-arrow-right"></a>
+                        <?php else: ?> 
+                        <a href="" data-toggle="modal" data-target="#modal-<?php get_the_ID(); ?>" class="see-more-btn">Learn more <i class="far fa-arrow-right"></i></a>
+                        <?php endif; ?>    
+                    </div>
+
+
+                
                 </div>
             <?php endwhile; ?>
             <?php wp_reset_postdata(); ?>
