@@ -90,7 +90,7 @@ get_header();
                         <?php if (get_field('link_type') == 'url'): ?>
                         <a class="see-more-btn" href="<?php the_field('funnel_url'); ?>">Register <i class="far fa-arrow-right"></a>
                         <?php else: ?> 
-                        <a href="" data-toggle="modal" data-target="#modal-<?php get_the_ID(); ?>" class="see-more-btn">Learn more <i class="far fa-arrow-right"></i></a>
+                        <a href="" data-toggle="modal" data-target="#modal-<?php echo get_the_ID(); ?>" class="see-more-btn">Learn more <i class="far fa-arrow-right"></i></a>
                         <?php endif; ?>    
                     </div>
 
@@ -304,7 +304,7 @@ get_header();
     <div class="modal-content">
       <div class="modal-header">
         
-        <h4 class="modal-title"><?php the_title(); ?></h4>
+        <h4 class="modal-title"><?php echo the_title(); ?></h4>
       </div>
       <div class="modal-body">
       <?php the_content(); ?>
