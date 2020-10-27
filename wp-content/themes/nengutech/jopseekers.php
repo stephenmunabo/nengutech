@@ -78,8 +78,39 @@ get_header();
                             <h5>ESTIMATED TIME</h5>
                             <p><?php the_field('completion_time'); ?></p>
                         </div>
-                        <a href="" data-toggle="modal" data-target="#modal-aws" class="see-more-btn">Register <i class="far fa-arrow-right"></i></a>
+                        <?php if (the_field('link_type') == 'url'): ?>
+                        <a class="see-more-btn" href="<?php the_field('funnel_url'); ?>">Register</a>
+                        <?php else: ?> 
+                        <a href="" data-toggle="modal" data-target="#modal-<?php get_the_ID(); ?>" class="see-more-btn">Learn more <i class="far fa-arrow-right"></i></a>
+                        <?php endif; ?>    
                     </div>
+
+
+                    <!-- Modal aws -->
+                    <div id="modal-<?php get_the_ID(); ?>" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            
+                            <h4 class="modal-title"><?php the_title(); ?></h4>
+                        </div>
+                        <div class="modal-body">
+                            <?php the_content(); ?>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                        </div>
+
+                    </div>
+                    </div>
+
+
+
+
+
                 </div>
             <?php endwhile; ?>
             <?php wp_reset_postdata(); ?>
@@ -298,27 +329,7 @@ get_header();
 </div>
 
 
-<!-- Modal aws -->
-<div id="modal-google-cloud" class="modal fade" role="dialog">
-  <div class="modal-dialog modal-lg">
 
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        
-        <h4 class="modal-title">Google Cloud Architect</h4>
-      </div>
-      <div class="modal-body">
-        <p> AWS Solution Architect course is aimed at empowering you with skills that will help you in the design of fault-tolerant, cost efficient & scalable distributed systems on platforms such as AWS. More importantly, with skills leanred you will be proficient the crafting of advanced cloud-based solutions and migrating data to the cloud.</p> 
-        <p>Based on the recommendations by Amazon, as an architect, you will be able to make plans for, design and scale AWS cloud implementations. Taking this course empowers you to be a AWS Solution architect, who can receive an average salary of $126,000 annually.  	</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-
-  </div>
-</div>
 
 
 
