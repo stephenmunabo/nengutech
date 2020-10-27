@@ -106,6 +106,7 @@ get_header();
                         global $wp_query;
                         $args = array(
                         'post_type' => 'programs',
+                        'order' => 'ASC',
                         'posts_per_page' => 5,
                         'tax_query' => array(
                             array(
@@ -119,10 +120,17 @@ get_header();
                         $the_query = new WP_Query( $args );
 
                         // The Loop
-                        while ( $the_query->have_posts() ) : $the_query->the_post();
-                        echo '<li>';
-                        the_title();
-                        echo '</li>';
+                        while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                        
+                        <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), 'single-post-thumbnail' ); ?>
+                        <div class="about-single-sldier-item">
+                                <div class="about-slider-inner">
+                                    <h4><?php the_title(); ?></h4>
+                                    <img src="<?php echo $image[0]; ?>" alt="">
+                                </div>
+                            </div>
+
+                        <?php
                         endwhile;
 
                         // Reset Post Data
