@@ -137,6 +137,18 @@ get_header();
                             <h2>Let's help you on the path to a new career</h2>
                             <h4>Register here and we will do the rest. </h4>
                         </div>
+
+
+                        <script id="bx24_form_inline" data-skip-moving="true">
+        (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
+                (w[b].forms=w[b].forms||[]).push(arguments[0])};
+                if(w[b]['forms']) return;
+                var s=d.createElement('script');s.async=1;s.src=u+'?'+(1*new Date());
+                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+        })(window,document,'https://nengutechllc.bitrix24.com/bitrix/js/crm/form_loader.js','b24form');
+
+        b24form({"id":"2","lang":"en","sec":"vhjp0h","type":"inline"});
+</script>
                         
                         
                         <?php gravity_form_enqueue_scripts( 1, true ); gravity_form( 1, false, false, false, '', true ); ?>
