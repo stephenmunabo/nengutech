@@ -297,7 +297,7 @@ get_header();
             <?php if ( $the_query2->have_posts() ) : ?>
             <?php while ( $the_query2->have_posts() ) : $the_query2->the_post(); ?>
     <!-- Modal aws -->
-<div id="modal-<?php get_the_ID(); ?>" class="modal fade" role="dialog">
+<div id="modal-<?php echo get_the_ID(); ?>" class="modal fade" role="dialog">
   <div class="modal-dialog modal-lg">
 
     <!-- Modal content-->
