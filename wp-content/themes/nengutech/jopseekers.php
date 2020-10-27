@@ -151,7 +151,7 @@ get_header();
 </script>
                         
                         
-                        <?php gravity_form_enqueue_scripts( 1, true ); gravity_form( 1, false, false, false, '', true ); ?>
+                        <?php //gravity_form_enqueue_scripts( 1, true ); gravity_form( 1, false, false, false, '', true ); ?>
                         <form style="display: none" action="">
                             <div class="row">
                                 <div class="col-md-6">
