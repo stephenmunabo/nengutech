@@ -233,7 +233,7 @@ get_header();
 
     <!-- Our team area start -->
 
-    <div class="our-team-area-wrp">
+    <div style="display: none;"  class="our-team-area-wrp">
         <div class="our-team-area">
             <div class="container">
                 <div class="row">
